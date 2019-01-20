@@ -2,6 +2,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk.tokenize import word_tokenize
 import pandas as pd
+import nltk
 column = ['product','category']
 data = pd.read_csv('/home/next/Desktop/training.txt',sep='\t',names=column)
 vector = CountVectorizer()
