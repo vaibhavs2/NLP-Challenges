@@ -3,7 +3,7 @@
 
 import re						
 import nltk						
-
+#jhhgfjhfasdfghgjhg
 regex = re.compile(r'(\w+)?( )?(-{4})( )?(\w+)')	
 nregex = re.compile(r'(-{4})')
 list_ans = input()
