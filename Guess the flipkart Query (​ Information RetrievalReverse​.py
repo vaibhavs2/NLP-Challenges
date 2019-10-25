@@ -26,7 +26,7 @@ for i in range(number_of_lines):
                 continue
     query=' '.join(l)
     result.append(query)
-print('nini')
+
 
 for ansr in mn.predict(vector.transform(result)):
         print(ansr)
